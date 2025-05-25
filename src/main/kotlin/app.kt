@@ -2,13 +2,13 @@ package org.example
 
 fun main() {
 
-    var x = 1
-    println("Before the loop X = $x")
-    while (x < 4) {
-        println("In the loop X = $x")
-        x = x + 1
+    val x = 4
+    val y = 1
+    if (x > y) {
+        println("x is greater than y")
+    } else {
+        println("x is not greater than y")
     }
-
-    println("After the loop X = $x")
+    println("this line runs no matter what")
 
 }
